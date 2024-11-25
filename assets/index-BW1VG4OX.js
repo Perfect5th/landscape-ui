@@ -1,1 +1,0 @@
-import{j as i}from"./index-Df00U5mw.js";import{A as r}from"./index-opyTxd5C.js";import"./moment-BvtLxrnz.js";import"./TablePagination-BGXmDGH_.js";import"./TablePagination.module-CgQ3jx4B.js";import"./usePageParams-DCAnICix.js";import"./useFetchOld-CstMzdlw.js";import"./NoData-CHU5SeIQ.js";const c=({instanceId:t})=>i.jsx(r,{instanceId:t});export{c as default};
