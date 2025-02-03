@@ -1,0 +1,1 @@
+import{j as s}from"./index-DLbbZNdR.js";import{T as m}from"./TablePaginationBase-DqKFXHO2.js";const j=({currentPage:a,pageSize:o,paginate:t,setPageSize:e,totalItems:i,className:n="",currentItemCount:r=0})=>s.jsx(m,{className:n,currentItemCount:r,currentPage:a,pageSize:o,paginate:t,setPageSize:e,totalItems:i});export{j as S};
