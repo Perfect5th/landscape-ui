@@ -1,1 +1,0 @@
-import{j as s}from"./index-Bd4iIRe_.js";import{u as a}from"./usePageParams-CGqhdr-B.js";import{T as m}from"./TableFilterChips-DUUXOsEl.js";const g=({options:e})=>{const{groupBy:r,setPageParams:t}=a();return s.jsx(m,{multiple:!1,label:"Group by",hasToggleIcon:!0,hasBadge:!0,options:e,onItemSelect:o=>t({groupBy:o}),selectedItem:r})};export{g as G};
