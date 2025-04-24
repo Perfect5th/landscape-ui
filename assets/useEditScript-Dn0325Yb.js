@@ -1,1 +1,0 @@
-import{u as c}from"./useFetchOld-BGcQOp2P.js";import{c as u,d as r}from"./index-P3tcVer_.js";const d=()=>{const t=c(),e=u(),{mutateAsync:i,isPending:s}=r({mutationKey:["scripts","edit"],mutationFn:async n=>t.get("EditScript",{params:n}),onSuccess:async()=>e.invalidateQueries({queryKey:["scripts"]})});return{editScript:i,isEditing:s}};export{d as u};
