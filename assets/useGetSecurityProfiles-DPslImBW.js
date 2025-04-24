@@ -1,0 +1,1 @@
+import{i as r,h as s}from"./index-Dvy4ms_D.js";const o=e=>{const i=r(),{data:t,isLoading:u}=s({queryKey:["securityProfiles",e],queryFn:async()=>i.get("security-profiles",{params:e})});return{securityProfiles:(t==null?void 0:t.data.results)??[],securityProfilesCount:(t==null?void 0:t.data.count)??0,isSecurityProfilesLoading:u}};export{o as u};
