@@ -1,1 +1,0 @@
-import{u as c}from"./useFetchOld-Dh4_z9Or.js";import{c as u,d as r}from"./index-vDh6p1re.js";const d=()=>{const t=c(),e=u(),{mutateAsync:i,isPending:s}=r({mutationKey:["scripts","edit"],mutationFn:async n=>t.get("EditScript",{params:n}),onSuccess:async()=>e.invalidateQueries({queryKey:["scripts"]})});return{editScript:i,isEditing:s}};export{d as u};
