@@ -1,0 +1,1 @@
+import{c as s,d as o,j as l,T as u}from"./index-DMPyBbUQ.js";const m=({options:a})=>{const{groupBy:t,setPageParams:r}=s();return o("groupBy",a.map(e=>e.value)),l.jsx(u,{type:"single",label:"Group by",hasToggleIcon:!0,hasBadge:!0,options:a,onItemSelect:e=>{r({groupBy:e})},selectedItem:t})};export{m as G};
