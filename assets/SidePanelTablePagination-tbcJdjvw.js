@@ -1,1 +1,0 @@
-import{j as r,l}from"./index-Dg2qeAM1.js";const j=({currentPage:a,pageSize:e,paginate:n,setPageSize:s,totalItems:t,className:i="",currentItemCount:o=0})=>r.jsx(l,{className:i,currentItemCount:o,currentPage:a,pageSize:e,paginate:n,setPageSize:s,totalItems:t});export{j as S};
