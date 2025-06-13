@@ -1,1 +1,0 @@
-import{k as u,r as t}from"./index-B8POXmbS.js";const l=(e,o)=>{const{closeSidePanel:r}=u(),[c,a]=t.useState([]),[n,s]=t.useState([]);return e!=c&&(r(),o||(s([]),a(e))),{selectedItems:n,setSelectedItems:s}};export{l as u};
