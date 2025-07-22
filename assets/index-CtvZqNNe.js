@@ -1,0 +1,1 @@
+import{j as e}from"./index-C_afT7mA.js";import{A as t}from"./AuthTemplate-Bpg_XHtW.js";import{A as i}from"./AvailableProviderList-ClHiNf-A.js";const s=()=>e.jsx(t,{title:"Sign in to Landscape",children:e.jsx(i,{isStandaloneOidcEnabled:!1,isUbuntuOneEnabled:!0,oidcProviders:[]})});export{s as default};
