@@ -1,1 +1,0 @@
-import{f as c,g as o,h as u}from"./index-B0Zx-d4a.js";const i=()=>{const e=c(),s=o(),{isPending:n,mutateAsync:t}=u({mutationFn:async a=>e.get("RemoveComputers",{params:a}),onSuccess:async()=>s.invalidateQueries({queryKey:["instances"]})});return{removeInstancesFromLandscape:t,isRemovingInstancesFromLandscape:n}};export{i as u};
