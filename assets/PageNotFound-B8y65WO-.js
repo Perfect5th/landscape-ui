@@ -1,0 +1,1 @@
+import{j as t,L as o}from"./index-D0eLLMjG.js";import{A as e}from"./AuthTemplate-D29rjbf9.js";const n=()=>t.jsxs(e,{title:"Page not found",children:[t.jsx("p",{children:"It seems that page you're looking for doesn't exist."}),t.jsx(o,{to:"/",className:"p-button--positive u-no-margin--bottom",children:"Go back to the home page"})]});export{n as default};
