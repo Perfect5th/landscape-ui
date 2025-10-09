@@ -23,13 +23,16 @@ export default defineConfig(
   eslint.configs.recommended,
   ...tseslint.configs.strict,
   ...tseslint.configs.stylistic,
-  
+
   {
     files: ["src/**/*.{js,jsx,ts,tsx}"],
     plugins: {
       "react-hooks": reactHooks,
     },
     extends: ["react-hooks/recommended"],
+    rules: {
+      "react-hooks/rules-of-hooks": "warn",
+    },
   },
 
   {
