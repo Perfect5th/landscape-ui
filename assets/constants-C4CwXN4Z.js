@@ -1,0 +1,1 @@
+import{j as s,g as e}from"./index-DjXnPsWV.js";const t={accessor:"title",id:"title",Header:s.jsxs("div",{className:e.header,children:["Title",s.jsx("span",{className:"u-text--muted",children:"Name"})]})};export{t as L};
