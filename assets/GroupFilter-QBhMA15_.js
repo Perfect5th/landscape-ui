@@ -1,1 +1,0 @@
-import{n as l,p as u,j as g,T as m}from"./index-HcaOzkr4.js";const p=({options:a,label:s,inline:t=!1})=>{const{groupBy:r,setPageParams:o}=l();return u("groupBy",a.map(e=>e.value)),g.jsx(m,{type:"single",label:s,hasToggleIcon:!0,hasBadge:!0,options:a,onItemSelect:e=>{o({groupBy:e})},selectedItem:r,inline:t})};export{p as G};

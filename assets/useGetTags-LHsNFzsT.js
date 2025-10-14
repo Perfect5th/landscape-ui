@@ -1,1 +1,0 @@
-import{d as a,m as n}from"./index-HcaOzkr4.js";const r=()=>{const t=a(),{data:s,isPending:e}=n({queryKey:["instanceTags"],queryFn:async()=>t.get("tags")});return{tags:s?.data.results??[],tagsCount:s?.data.count,isGettingTags:e}};export{r as u};
