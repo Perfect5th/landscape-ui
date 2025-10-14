@@ -1,0 +1,1 @@
+import{i as c,k as u,l as r}from"./index-CmmfIHlE.js";const o=()=>{const t=c(),e=u(),{mutateAsync:i,isPending:s}=r({mutationKey:["scripts","edit"],mutationFn:async n=>t.get("EditScript",{params:n}),onSuccess:async()=>e.invalidateQueries({queryKey:["scripts"]})});return{editScript:i,isEditing:s}};export{o as u};
