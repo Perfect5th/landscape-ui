@@ -1,0 +1,1 @@
+import{n as o,o as c,p as u}from"./index-DJOjDjNm.js";const i=()=>{const e=o(),s=c(),{isPending:n,mutateAsync:t}=u({mutationFn:async a=>e.get("RemoveComputers",{params:a}),onSuccess:async()=>s.invalidateQueries({queryKey:["instances"]})});return{removeInstancesFromLandscape:t,isRemovingInstancesFromLandscape:n}};export{i as u};

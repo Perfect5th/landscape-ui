@@ -1,0 +1,1 @@
+import{n as u,p as i,C as a}from"./index-DJOjDjNm.js";const o=()=>{const e=u(),{mutateAsync:n,isPending:r}=i({mutationKey:["scripts","execute"],mutationFn:async t=>{const s={...t,deliver_after:t.deliver_after?a(t.deliver_after).utc().format("YYYY-MM-DDTHH:mm:ss[Z]"):void 0};return e.get("ExecuteScript",{params:s})}});return{runScript:n,isRunning:r}};export{o as u};
