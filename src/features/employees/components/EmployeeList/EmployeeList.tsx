@@ -1,8 +1,10 @@
 import { LIST_ACTIONS_COLUMN_PROPS } from "@/components/layout/ListActions";
 import LoadingState from "@/components/layout/LoadingState";
 import NoData from "@/components/layout/NoData";
+import ResponsiveTable from "@/components/layout/ResponsiveTable";
 import TruncatedCell from "@/components/layout/TruncatedCell";
 import useSidePanel from "@/hooks/useSidePanel";
+import { ROUTES } from "@/libs/routes";
 import type { ExpandedCell } from "@/types/ExpandedCell";
 import { Button } from "@canonical/react-components";
 import type { FC } from "react";
@@ -14,8 +16,6 @@ import { getStatusText } from "../../helpers";
 import type { Employee } from "../../types";
 import EmployeeListActions from "../EmployeeListActions";
 import { getTableRows, handleCellProps, handleRowProps } from "./helpers";
-import ResponsiveTable from "@/components/layout/ResponsiveTable";
-import { ROUTES } from "@/libs/routes";
 
 const EmployeeDetails = lazy(async () => import("../EmployeeDetails"));
 
@@ -150,16 +150,15 @@ const EmployeeList: FC<EmployeeListProps> = ({ employees }) => {
   );
 
   return (
-    <div ref={getTableRows(tableRowsRef)}>
-      <ResponsiveTable
-        columns={columns}
-        data={employees}
-        getCellProps={handleCellProps(expandedCell)}
-        getRowProps={handleRowProps(expandedCell)}
-        emptyMsg="No employees found according to your search parameters."
-        minWidth={1200}
-      />
-    </div>
+    <ResponsiveTable
+      columns={columns}
+      ref={getTableRows(tableRowsRef)}
+      data={employees}
+      getCellProps={handleCellProps(expandedCell)}
+      getRowProps={handleRowProps(expandedCell)}
+      emptyMsg="No employees found according to your search parameters."
+      minWidth={1200}
+    />
   );
 };
 
