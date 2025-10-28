@@ -1,1 +1,0 @@
-import{j as r,a as s,U as o}from"./index-b6eKq6Xg.js";import{U as t,a as e}from"./UbuntuProList-D_fxXVAh.js";const x=({instance:u})=>u.ubuntu_pro_info?.result==="success"?r.jsxs(r.Fragment,{children:[r.jsx(s,{instance:u}),r.jsx(t,{instance:u}),r.jsx(e,{services:u.ubuntu_pro_info.services})]}):r.jsx(o,{instance:u});export{x as default};
